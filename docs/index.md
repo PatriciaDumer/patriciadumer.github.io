@@ -35,7 +35,7 @@
      document.getElementById("p9").innerHTML = Geometrizer();
      document.getElementById("p10").innerHTML = celciusToFe();
      document.getElementById("p11").innerHTML = fahtocelsius();
-           </script>;
+           </script>
     
     </body>
 
