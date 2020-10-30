@@ -1,7 +1,7 @@
-<!Doctype html>
+
 <html>
 <head>
-   <script src="script.js"></script>       
+   <script src="docs/script.js"></script>       
 
 </head>
         
