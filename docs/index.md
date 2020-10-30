@@ -1,37 +1,45 @@
-## Welcome to GitHub Pages
+<!Doctype html>
+<html>
+<head>
+   <script src="script.js"></script>       
 
-You can use the [editor on GitHub](https://github.com/PatriciaDumer/patriciadumer.github.io/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+</head>
+        
+<body>
+    <ol>
+    
+        <li><p id="p1"></p></li>
+        <li><p id="p2"></p></li>
+        <li><p id="p3"></p></li>
+        <li><p id="p4"></p></li>
+        <li><p id="p5"></p></li>
+        <li><p id="p6"></p></li>
+        <li><p id="p7"></p></li>
+        <li><p id="p8"></p></li>
+        <li><p id="p9"></p></li>
+        <li><p id="p10"></p></li>
+        <li><p id="p11"></p></li>
+    
+    </ol>
+<script>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    
+    document.getElementById("p1").innerHTML = squaredNumber();
+    document.getElementById("p2").innerHTML = HalfNumber();
+    document.getElementById("p3").innerHTML = percentOF();
+     document.getElementById("p4").innerHTML = areaOfCircle();
+     document.getElementById("p5").innerHTML = runAll();
+     document.getElementById("p6").innerHTML = FortuneTeller();
+     document.getElementById("p7").innerHTML = AgeCaluclator();
+     document.getElementById("p8").innerHTML = LifeTimeSupply();
+     document.getElementById("p9").innerHTML = Geometrizer();
+     document.getElementById("p10").innerHTML = celciusToFe();
+     document.getElementById("p11").innerHTML = fahtocelsius();
+           </script>;
+    
+    </body>
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PatriciaDumer/patriciadumer.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</html>
